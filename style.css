@@ -13,6 +13,8 @@ body
     font-style: normal;
 }
 
+/* Logo et Recherche */
+
 li
 {
     font-family: 'Raleway';
@@ -48,6 +50,8 @@ li
     padding-left: 15px;
     margin-right: 10px;
 }
+
+        /* Bannieres - Filtres */
 
 .carte
 {
