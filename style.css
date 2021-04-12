@@ -1,13 +1,21 @@
 body
 {
     font-family: 'Raleway', sans-serif;
-    font-size: normal;
-    font-style: normal;
+    max-width: 1440px;
     margin: auto;
-    max-width: 1920px;
+    padding: 0 2rem;
+    box-sizing: border-box;
+    font-size: 13px;
+    font-style: normal;
+    
 }
 
-/* Logo et Recherche */
+header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 li
 {
@@ -20,44 +28,43 @@ li
     margin: 20px
 }
 
+ul
+{
+    margin-top:-60px;
+}
+
+h2
+{
+    font-family: 'Raleway', "sans-serif";
+    font-size: 20px;
+}
+
+h3
+{
+    font-family: 'Raleway', "sans-serif";
+    font-size: 18px;
+}
+
+p
+{
+    font-family: 'Raleway', "sans-serif";
+    font-size: 11px;
+    font-style: normal;
+}
+
+a
+{
+    list-style-type: none;
+    text-decoration: none;
+    color:#000000;
+}
+
 .logo
 {
-    width: 7%;
+    width: 50%;
     margin-left: 10px;
     margin-top:10px;
 }
-
-ul
-{
-    margin-top:-100px;
-}
-
-.ic1
-{
-	width: 25px;
-	height: 25px;
-   	padding: 11px;
-   	border-radius: 25px;
-   	border-style: none;
-   	background-color: #DEEBFF;
-   	position: relative;
-   	margin-right: -10px;
-    color: #0065FC;
-}
-
-
-.ic2
-{
-    height: 48px;
-    border-radius: 0px 20px 20px 0px;
-    width: 170px;
-    margin-left: -15px;
-    font-weight: normal;
-    padding-left: 15px;
-    margin-right: 10px;
-}
-
-        /* Bannieres - Filtres */
 
 .carte
 {
@@ -88,10 +95,29 @@ ul
 
  .menu
  {
-     display: flex;
-     margin-top: 10px;
-     margin-bottom: 10px;
- }
+    display: flex;
+    height: 43px;
+    border: 2px solid  #F2F2F2;
+    border-left: transparent;
+    border-radius: 25px;
+    margin: 10px 10px 5px 20px;
+    color: blue;
+}
+
+.menu:hover 
+{
+    background-color: #DEEBFF;
+}
+
+.menu h3
+{
+    font-weight: 600;
+    margin: 0 15px 0 10px;
+    display: flex;
+    align-items: center;
+    color: black;
+}
+
 
  .recherche
 {
@@ -125,18 +151,6 @@ ul
     margin: 10px;
 }
 
-
-
-/* zone des filtres */
-
-.ec_menu
-{
-    background-color: transparent;
-    border: none;
-    font-weight: bolder;
-    color: black;
-}
-
 .main
 {
     display: flex;
@@ -159,41 +173,12 @@ ul
      margin-bottom: 10px;
  }
 
- .rondelle
-{
-	width: 25px;
-	height: 25px;
-   	padding: 11px;
-   	border-radius: 25px;
-   	border-style: none;
-   	background-color: #a1c1f0;
-   	position: relative;
-   	margin-right: -10px;
-}
-
-.cartouche
-{
-    height: 48px;
-    border-radius: 0px 20px 20px 0px;
-    width: 170px;
-    margin-left: -15px;
-    font-weight: bold;
-    padding-left: 15px;
-    margin-right: 10px;
-}
-
-.cartouche:hover
-{
-    background-color: pink;
-}
 
 .ville
 {
     margin: 0px;
     font-size: 1.1em; 
 }
-
-/* Partie Hébergements */
 
 .row
 {
@@ -218,13 +203,13 @@ ul
     align-items: center;
 }
 
-.reserv 
+.res1
 {
     vertical-align: middle;
 	padding: 3px;
 	text-align: left;
 	background-color: #ffffff;
-    width: 28%;
+    width: 25%;
 	border-radius: 20px;
     margin: 20px;
     box-shadow: 1px 1px 12px #555;
@@ -232,11 +217,12 @@ ul
 
 .photo
 {
+    height: 7rem;
+    object-fit: cover;
+    max-width: 100%;
     width: 100%;
-    min-height: 200px;
-    max-height: 200px;
-	border-radius: 20px 20px 0 0;
-    transition: transform 1s; 
+    max-height: 100%;
+    border-radius: 1rem 1rem 0 0;
 }
 
 .photo:hover
@@ -247,7 +233,8 @@ ul
 .etoile
 {
 	width: 19px;
-    color: #0065FC;
+    color: #0065FC !important;
+
 }
 
 .colonne2
@@ -262,7 +249,7 @@ ul
     align-items: center;
 }
 
-.reserv2 
+.res2
 {
     display: flex;
 	padding: 3px;
@@ -282,7 +269,7 @@ ul
     max-width: 100px;
     height: 100px;
 	border-radius: 20px 0 0 20px;
-	transition: transform 1s; 
+    object-fit: cover;
 }
 
 .photo2:hover
@@ -290,7 +277,7 @@ ul
     transform: scale(1.1);
 }
 
-.titre
+.titre1
 {
     background-color: #f2f2f2;
     border-radius: 20px 0 0 20px;
@@ -306,13 +293,13 @@ ul
     margin-left: 30px;
 }
 
-.icon
+.icone
 {
    float: right;
    width: 20px;
 }
 
-.description
+.description1
 {
     margin-left: 10px;
     padding-top: 10px;
@@ -323,6 +310,10 @@ ul
 {
     padding-top: 20px;
     font-size: 1.2em;
+    margin-top:10px;
+    margin-left:20px;
+    margin-bottom:10px;
+    font-size: 1.0em;
 }
 
 .titre3
@@ -333,7 +324,7 @@ ul
     margin-left: 30px;
 }
 
-.row3
+.row2
 {
 	display: flex;
     flex-direction: row;
@@ -355,7 +346,7 @@ ul
     vertical-align: middle;
 }
 
-.reserv3 
+.res3
 {
     vertical-align: middle;
 	padding: 0px;
@@ -371,6 +362,7 @@ ul
     height: 500px;
 	border-radius: 20px 20px 0 0;
 	transition: transform 1s;
+    object-fit: cover;
 }
 
 .photo3:hover
@@ -389,15 +381,7 @@ ul
     align-items: center;
 }
 
-.description2
-{
-    margin-top:10px;
-    margin-left:20px;
-    margin-bottom:10px;
-    font-size: 1.0em;
-}
-
-.reserv4 
+.res4
 {
     width: 90%;
 	border-radius: 20px;
@@ -411,9 +395,73 @@ ul
     height: 222px;
 	border-radius: 20px 20px 0 0;
 	transition: transform 1s; 
+    object-fit: cover;
 }
 
 .photo4:hover
 {
     transform: scale(1.1);
+}
+
+.star1
+{
+    color: #0065FC;
+
+}
+
+.rond
+{
+    background-color: #DEEBFF;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    
+}
+
+.iii 
+{
+    color: #0065fc;
+}
+
+.hhh
+{
+    color: #0065fc;
+}
+
+.gris
+{
+    color: #d9d9d9
+}
+
+.row3
+{
+    background-color: #f2f2f2;
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+
+}
+
+.colonne5
+{
+	width:30%;
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.titre4
+{
+    width: 80%;
+    margin-left: 30px;
+}
+
+.com
+{
+    margin-left: 30px;
+    font-size: 1.2em;
 }
