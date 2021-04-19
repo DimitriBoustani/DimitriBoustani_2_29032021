@@ -2,12 +2,12 @@ body
 {
     font-family: 'Raleway', sans-serif;
     max-width: 1440px;
+    max-height: 1884px;
     margin: auto;
     padding: 0 2rem;
     box-sizing: border-box;
     font-size: 13px;
     font-style: normal;
-    
 }
 
 header
@@ -15,6 +15,7 @@ header
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 92%;
 }
 
 li
@@ -30,7 +31,7 @@ li
 
 ul
 {
-    margin-top:-60px;
+    margin-top: 2px;
 }
 
 h2
@@ -61,9 +62,9 @@ a
 
 .logo
 {
-    width: 50%;
-    margin-left: 10px;
-    margin-top:10px;
+    width: 30%;
+    margin-left: -1px;
+    margin-top:15px;
 }
 
 .carte
@@ -84,13 +85,15 @@ a
     border: none;
     font-weight: bolder;
     color: black;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
 }
 
 .filtre
 {
     display: flex;
     margin: 20px;
-
+    margin-left: -2px;
 }
 
  .menu
@@ -147,8 +150,28 @@ a
 
 .info
 {
-    font-size: 12px;
-    margin: 10px;
+    display: flex;
+    align-items: center;
+    margin: 1rem 0 2rem 0;
+}
+
+.infoicone
+{
+    height: 2rem;
+    width: 2rem;
+    min-height: 2rem;
+    min-width: 2rem;
+    border: solid 1px #d9d9d9;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1rem;
+}
+
+.infoicones
+{
+    color: #0065FC;
 }
 
 .main
@@ -159,19 +182,12 @@ a
 	margin-top: -20px;
 }
 
-.filtre
+ .menu
 {
     display: flex;
-    margin: 20px;
-
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
-
- .menu
- {
-     display: flex;
-     margin-top: 10px;
-     margin-bottom: 10px;
- }
 
 
 .ville
@@ -187,7 +203,7 @@ a
 	width: 100%;
 	margin-top: 20px;
 	margin-bottom: 20px;
-
+    margin-left: -18px;
 }
 
 .colonne1
@@ -230,13 +246,6 @@ a
     transform: scale(1.1);
 }
 
-.etoile
-{
-	width: 19px;
-    color: #0065FC !important;
-
-}
-
 .colonne2
 {
 	width:30%;
@@ -255,6 +264,7 @@ a
 	padding: 3px;
 	background-color: #ffffff;
     width: 80%;
+    height: 18%;
 	border-radius: 20px;
     margin-left: 20px;
     margin-top: 30px;
@@ -309,19 +319,16 @@ a
 .description2
 {
     padding-top: 20px;
-    font-size: 1.2em;
-    margin-top:10px;
-    margin-left:20px;
+    margin-top: -13px;
+    margin-left:25px;
     margin-bottom:10px;
-    font-size: 1.0em;
+    font-size: 16px;
 }
 
 .titre3
 {
-    background-color: #ffffff;
-    border-radius: 20px 0 0 20px;
-    width: 80%;
-    margin-left: 30px;
+    margin-left: 2px;
+    margin-top: 45px;
 }
 
 .row2
@@ -329,15 +336,15 @@ a
 	display: flex;
     flex-direction: row;
     align-content: center;
-	width: 100%;
-	margin-top: 20px;
+	width: 96%;
+	margin-top: -25px;
 	margin-bottom: 20px;
-
+    margin-left: -31px;
 }
 
 .colonne3
 {
-	width:25%;
+	width: 25%;
 	border-radius: 20px;
 	display: flex;
     flex-direction: row;
@@ -384,15 +391,16 @@ a
 .res4
 {
     width: 90%;
+    height: 42%;
 	border-radius: 20px;
-    margin-left: 35px;
+    margin-left: 16px;
     box-shadow: 1px 1px 12px #555;
 }
 
 .photo4
 {
 	width: 100%;
-    height: 222px;
+    height: 212px;
 	border-radius: 20px 20px 0 0;
 	transition: transform 1s; 
     object-fit: cover;
@@ -406,7 +414,6 @@ a
 .star1
 {
     color: #0065FC;
-
 }
 
 .rond
@@ -418,7 +425,6 @@ a
     display: flex;
     justify-content: center;
     align-items: center; 
-    
 }
 
 .iii 
@@ -436,32 +442,74 @@ a
     color: #d9d9d9
 }
 
-.row3
+.piedpage
 {
-    background-color: #f2f2f2;
-	display: flex;
-	flex-direction: row;
-	width: 100%;
-
+    background-color: #F2F2F2;
+    width: 93%;
+    margin-left: -7px;
+    height: 210px;
 }
 
-.colonne5
+.piedwrap
 {
-	width:30%;
-	display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
+    display: flex;
+    max-width: 100%;
+    width: 1440px;
+    margin: auto;
+    padding: 0 2rem;
+    box-sizing: border-box;
+}
+.piedcolonne
+{
+    width: 30%;
+    padding: 2rem 2rem;
+}
+  
+.piedliens
+{
+    display: block;
+    margin: 1rem 0;
 }
 
-.titre4
+.piedliens:hover 
 {
-    width: 80%;
-    margin-left: 30px;
+    text-decoration: underline;
+}
+  
+
+.bleu
+{
+    color: blue;
 }
 
-.com
+.nav
 {
-    margin-left: 30px;
-    font-size: 1.2em;
+    height: 50%;
 }
+
+.infotexte
+{
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.hhh:hover 
+{
+    color: #0065FC;
+}
+
+.hhh:hover 
+{
+    border-top: 3px solid #0065FC;
+}
+
+.jjj:hover
+{
+    color: #0065FC;
+}
+
+.jjj:hover
+{
+    border-top: 3px solid #0065FC;
+}
+
