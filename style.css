@@ -2,7 +2,6 @@ body
 {
     font-family: 'Raleway', sans-serif;
     max-width: 1440px;
-    max-height: 1884px;
     margin: auto;
     padding: 0 2rem;
     box-sizing: border-box;
@@ -459,6 +458,7 @@ a
     padding: 0 2rem;
     box-sizing: border-box;
 }
+
 .piedcolonne
 {
     width: 30%;
@@ -476,7 +476,6 @@ a
     text-decoration: underline;
 }
   
-
 .bleu
 {
     color: blue;
@@ -511,5 +510,19 @@ a
 .jjj:hover
 {
     border-top: 3px solid #0065FC;
+}
+
+#inscription
+{
+    position: absolute;
+    margin-left: 63%;
+    font-size: 15px;
+    margin-top: 13px;
+}
+
+.desktop
+{
+    height: 50%;
+    margin-right: 6%;
 }
 

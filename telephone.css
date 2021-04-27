@@ -1,22 +1,21 @@
-@media only screen and (max-width: 1150px) 
+
+body 
 {
-    body 
-    {
-        font-size: 0.9em;
-    }
-
-
-    h2 
-    {
-        font-size: 1.1em;
-    }
-
-    p 
-    {
-        font-size: medium;
-        font-weight: bolder;
-    }    
+    font-size: 0.9em;
 }
+
+
+h2 
+{
+    font-size: 1.1em;
+}
+
+p 
+{
+    font-size: medium;
+    font-weight: bolder;
+}    
+
 
 .logo
 {
@@ -24,10 +23,6 @@
     margin-top:0px;
 }
 
-nav
-{
-    display: flex;
-}
 
 .iii
 {
@@ -41,7 +36,6 @@ nav
 .hhh
 {
     color: #000000;
-    margin-left: 20%;
     font-size: 1.1em;
 }
 
@@ -59,9 +53,11 @@ nav
 
 .filtre
 {
-    flex-direction: column;
+    flex-wrap: wrap;
     align-items : flex-start;
+    margin-top: 45px;
     margin-left: -2px;
+    
 }
 
 .menu
@@ -140,7 +136,7 @@ nav
 {
     width: 80%;
     margin-bottom: 30px;
-    margin-left: 2px;
+    margin-left: 40px;
 }
 
 .photo3
@@ -160,6 +156,7 @@ nav
 {
     width: 80%;
     margin-bottom: 30px;
+    margin-left: 45px;
 }
 
 .photo4
@@ -173,7 +170,8 @@ nav
 {
     background-color: #F2F2F2;
     width: 330px;
-    height: 425px;
+    height: 520px;
+    margin-left: 20px;
 }
 
 .piedwrap
@@ -186,16 +184,26 @@ nav
 {
     width: 100%;
     padding: 0;
-    margin: 1rem 5;
+    margin: 1rem 0rem;
 }
 
 .piedliens
 {
-display: block;
-margin: 1rem 0;
+    display: block;
+    margin: 1rem 0rem;
 }
 
 .piedliens:hover 
 {
-text-decoration: underline;
+    text-decoration: underline;
+}
+
+.zf
+{
+    margin-top: -30px;
+}
+
+.desktop
+{
+    display: flex;
 }
