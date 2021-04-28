@@ -212,3 +212,10 @@ p
 {
     width: 100%;
 }
+
+#inscription
+{
+    position: absolute;
+    right: 0;
+    top: 35px;
+}

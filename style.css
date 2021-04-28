@@ -431,6 +431,7 @@ a
 .iii 
 {
     color: #0065fc;
+    max-width: 750px;
 }
 
 .hhh
@@ -520,10 +521,11 @@ a
     left: 300px;
     font-size: 15px;
     bottom: 37px;
+    max-width: 750px;
 }
 .desktop
 {
     height: 50%;
-    margin-right: 6%;
+    margin-right: 14%;
 }
 
