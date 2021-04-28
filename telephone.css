@@ -57,7 +57,6 @@ p
     align-items : flex-start;
     margin-top: 45px;
     margin-left: -2px;
-    
 }
 
 .menu
@@ -103,12 +102,11 @@ p
 {
     width: 100%;
 	border-radius: 20px 20px 0 0;
-
 }
 
 .res2
 {
-    width: 85%;
+    width: 340px;
 }
 
 .photo2
@@ -181,7 +179,7 @@ p
 }
 
 .piedcolonne
-{
+{   
     width: 100%;
     padding: 0;
     margin: 1rem 0rem;
@@ -206,4 +204,11 @@ p
 .desktop
 {
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menuhaut
+{
+    width: 100%;
 }
