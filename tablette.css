@@ -1,0 +1,237 @@
+
+body 
+{
+    font-size: 0.9em;
+}
+
+
+h2 
+{
+    font-size: 1.1em;
+}
+
+p 
+{
+    font-size: medium;
+    font-weight: bolder;
+}    
+
+
+.logo
+{
+    width: 100px;
+    margin-top:0px;
+}
+
+
+.iii
+{
+    width: 100%;
+    color: #0065fc;
+    font-size: 1.1em;
+    text-align: right;
+    margin-right: 10px;
+    margin-top: -20px;
+    position:relative
+}
+
+.hhh
+{
+    color: #000000;
+    font-size: 1.1em;
+    margin-left: -50%;
+}
+
+.jjj
+{
+    color: #000000;
+    margin-left: 60%;
+    font-size: 1.1em;
+}
+
+.recherche
+{
+    margin-left: -4px;
+}
+
+.filtre
+{
+    flex-wrap: wrap;
+    align-items : flex-start;
+    margin-top: 45px;
+    margin-left: -2px;
+}
+
+.menu
+{
+    margin-left: -2px;
+}
+
+.row
+{
+    flex-direction: column-reverse;
+
+}
+
+.colonne1
+{
+    background-color: #ffffff;
+    width:90%;
+    margin-bottom: 20px;
+    display: flex;
+	flex-direction: column;
+}
+
+.colonne2
+{
+    width:90%;
+    margin-bottom: 20px;
+}
+
+
+.titre1
+{
+    background-color: #ffffff;
+}
+
+.res1
+{
+    width: 85%;
+    min-width: 200px;
+
+}
+
+.photo
+{
+    width: 100%;
+	border-radius: 20px 20px 0 0;
+}
+
+.res2
+{
+    width: 340px;
+}
+
+.photo2
+{
+    width: 50%;
+	height: 110px;
+	border-radius: 20px 0 0 20px;
+}
+
+.row2
+{
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.colonne3
+{
+    width:100%;
+    align-items: center;
+    margin-left: 4%;
+}
+
+.res3
+{
+    width: 80%;
+    margin-bottom: 30px;
+    margin-left: 40px;
+}
+
+.photo3
+{
+    width: 100%;
+    height: 200px;
+	border-radius: 20px 20px 0 0;
+}
+
+.colonne4
+{
+    width:100%;
+    align-items: center;
+}
+
+.res4
+{
+    width: 80%;
+    margin-bottom: 30px;
+    margin-left: 45px;
+}
+
+.photo4
+{
+    width: 100%;
+    height: 200px;
+	border-radius: 20px 20px 0 0;
+}
+
+.piedpage
+{
+    background-color: #F2F2F2;
+    width: 330px;
+    height: 520px;
+    margin-left: 20px;
+}
+
+.piedwrap
+{
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.piedcolonne
+{   
+    width: 100%;
+    padding: 0;
+    margin: 1rem 0rem;
+}
+
+.piedliens
+{
+    display: block;
+    margin: 1rem 0rem;
+}
+
+.piedliens:hover 
+{
+    text-decoration: underline;
+}
+
+.zf
+{
+    margin-top: -30px;
+}
+
+.desktop
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menuhaut
+{
+    width: 100%;
+    justify-content: space-between;
+}
+
+#inscription
+{
+    position: absolute;
+    right: 0;
+    top: 35px;
+}
+
+.hhh:hover
+{
+    border-bottom: 3px solid #0065FC;
+    color: #0065FC;
+}
+
+.jjj:hover
+{
+    border-bottom: 3px solid #0065FC;
+}
+
