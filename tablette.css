@@ -58,7 +58,7 @@ p
 {
     flex-wrap: wrap;
     align-items : flex-start;
-    margin-top: 45px;
+    
     margin-left: -2px;
 }
 
@@ -201,7 +201,7 @@ p
 
 .zf
 {
-    margin-top: -30px;
+    
 }
 
 .desktop
@@ -235,3 +235,30 @@ p
     border-bottom: 3px solid #0065FC;
 }
 
+.res6
+{
+    width: 80%;
+    margin-bottom: 30px;
+    margin-left: 45px;
+}
+
+.res7
+{
+    width: 80%;
+    margin-bottom: 30px;
+    margin-left: 45px;
+}
+
+.photo7
+{
+    width: 100%;
+    height: 200px;
+	border-radius: 20px 20px 0 0;
+}
+
+.photo9
+{
+    width: 100%;
+    height: 200px;
+	border-radius: 20px 20px 0 0;
+}

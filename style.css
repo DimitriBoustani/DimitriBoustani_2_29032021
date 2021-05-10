@@ -80,7 +80,7 @@ a
    height: auto;
 }
 
-.zf
+/* .zf
 {
     background-color: transparent;
     border: none;
@@ -88,11 +88,11 @@ a
     color: black;
     font-size: 20px;
     font-family: 'Raleway', sans-serif;
-}
+} */
 
 .filtre
 {
-    display: flex;
+    /* display: flex; */
     margin: 20px;
     margin-left: -2px;
 }
@@ -391,8 +391,6 @@ a
 
 .res4
 {
-    width: 90%;
-    height: 42%;
 	border-radius: 20px;
     margin-left: 16px;
     box-shadow: 1px 1px 12px #555;
@@ -401,10 +399,11 @@ a
 .photo4
 {
 	width: 100%;
-    height: 212px;
+    height: 200px;
 	border-radius: 20px 20px 0 0;
 	transition: transform 1s; 
     object-fit: cover;
+    object-position: 50% 0%;
 }
 
 .photo4:hover
@@ -529,3 +528,45 @@ a
     margin-right: 14%;
 }
 
+#parentmenu
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.res6
+{
+	border-radius: 20px;
+    margin-left: 16px;
+    box-shadow: 1px 1px 12px #555;
+    margin-bottom: -15px;
+}
+
+.res7
+{
+	border-radius: 20px;
+    margin-left: 16px;
+    box-shadow: 1px 1px 12px #555;
+    margin-top: -15px;
+    height: 50%;
+}
+
+.photo7
+{
+	width: 100%;
+    height: 250px;
+	border-radius: 20px 20px 0 0;
+	transition: transform 1s; 
+    object-fit: cover;
+    object-position: 50% 35%;
+}
+
+.photo9
+{
+	width: 100%;
+    height: 120px;
+	border-radius: 20px 20px 0 0;
+	transition: transform 1s; 
+    object-fit: cover;
+    object-position: 50% 35%;
+}
