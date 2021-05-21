@@ -18,4 +18,5 @@ Le site devra être compatible avec les dernières versions de Chrome et Firefox
 Le HTML et le CSS doivent être séparés et le dossier doit être organisé
 Le code doit être versionné avec git et doit avoir un repo distant sur Github ou Gitlab
 Notes sur la réalisation du projet
-L'integration est faite sur l'éditeur Visual Studio Code avec les plugins Live server, Live Sass Compiler & Git Graph. Le thème, l'UI et les raccourcis clavier sont personnalisés.
+L'integration est faite sur l'éditeur Visual Studio Code avec le plugin Live server. 
+Le thème, l'UI et les raccourcis clavier sont personnalisés.
